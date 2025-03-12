@@ -1,8 +1,7 @@
 ---
 title: Project 2
 draft: false
-tags:
-  - -example-tag
+tags: []
 ---
 
 The rest of your content lives here. You can use **Markdown** now!
