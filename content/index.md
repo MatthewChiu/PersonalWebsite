@@ -1,5 +1,6 @@
 ---
 title: About Me
+enableFooter: "false"
 ---
 
 This is a blank Quartz installation.
