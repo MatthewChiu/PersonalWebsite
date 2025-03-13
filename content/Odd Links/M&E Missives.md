@@ -2,7 +2,7 @@
 title: M&E Missives
 draft: false
 tags:
-  - OddLinks
+  - oddLinks
 ---
 Eron and I write an annual letter—a bit of digital scrapbooking, a bit of reflecting, etc. 
 

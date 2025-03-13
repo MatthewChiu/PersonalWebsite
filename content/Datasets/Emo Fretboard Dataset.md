@@ -1,7 +1,7 @@
 ---
 title: Emo Fretboard Dataset
 tags:
-  - Datasets
+  - datasets
   - emo
 ---
 `This work is co-authored with Tyler M. Howie`

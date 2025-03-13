@@ -1,5 +1,5 @@
 ---
 title: Sanderson Novels
 tags:
-  - OddLinks
+  - oddLinks
 ---

@@ -25,4 +25,6 @@ Prior to Baldwin Wallace, I taught at University of Illinois, Union College, the
 ## Other
 In my free time I like to take photos, bird watch, and play piano with my 4-hands partner (and partner) Eron.
 
-### Contact me at `mchiu @ bw.edu`
+---
+## Contact me 
+`mchiu @ bw.edu`
