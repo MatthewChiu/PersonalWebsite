@@ -5,7 +5,7 @@ tags:
   - oddLinks
   - birds
 ---
+I previous made a JS app which plots bird photos on the globe (with links to see more photos). I store my photos elsewhere, so it isn't up-to-date... but it's too sentimental to part with.
 
-The rest of your content lives here. You can use **Markdown** now!
-
+[Here it is!](https://mattchiu.com/birdMap/index.html)
 

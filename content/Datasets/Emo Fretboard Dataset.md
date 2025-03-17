@@ -7,6 +7,12 @@ tags:
 `This work is co-authored with Tyler M. Howie`
 ## Hook
 A quick search on the reddit "emo" page will show you that guitarists are always looking for the best or new "emo" tunings. What does that mean? We collected a bunch of riffs, transcribed them, and analyzed the tuning, hand positioning, and other features.
+
+```python
+class CoAuthor
+	def __init__(self, name):
+		self.name = "Tyler M. Howie"
+```
 ## Summary
 - 17 riffs from emo music all in *alternate tunings*
 - Encoded in "fret" notation (see humdrum) and kern
@@ -15,7 +21,7 @@ Here are two heatmaps showing the difference between another fretboard dataset o
 ![](./Emo%20Fretboard%20Dataset.png)
 ![](./Guitar%20Pro%20Tablature%20Dataset.png)
 
-## So far...
+## Status
 We've presented the dataset at the Society for Music Theory ( #SMT ) and the Rocky Mountain Society for Music Theory.
 
 We are currently working on a more comprehensive paper for its publication.

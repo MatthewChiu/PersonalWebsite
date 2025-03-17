@@ -4,7 +4,6 @@ draft: false
 tags:
   - oddLinks
 ---
-
 Eron's father (David Smith) is a mechancal engineering professor at Georgia Tech. For one of the "design problem," students need to build a product for a company. To hook the students, David asked us to write **jingles** and **commercials**. 
 
 One of most iconic companies is "Pump Co."—a company to sell water pumps (Eron even made a logo...). David ordered customized pens with the logo, and he's still getting promotional emails to "help grow his company." I've attached an example commercial + jingle below.
