@@ -22,7 +22,7 @@ We can also compare directly people's 41 dimensional vectors. The table below sh
 
 ![[fruitPrefDistanceMatrix.png]]
 
-Can we visualize everyone in the same plot? Yes—by using multidimensional scaling! (I'm writing this to work through MDS...)
+Can we visualize everyone in the same plot? Yes—by using #MultidimensionalScaling! (I'm writing this to work through MDS...)
 
 First, we take the symmetrical distance matrix $D$ (above) and square all the values in it ($D^2$). We want to center the entire matrix (in case its offset). To do that we multiply it by the centering matrix C: where $C$ is the centering matrix, $n$ is the number of people (6), and $I$ is the identity matrix, and $J_n$ is an $n \times n$ full of 1s
 $$C=I-\frac{1}{n}J_n$$
@@ -36,4 +36,5 @@ To plot the fruit preferences in two dimensions, we multiply the the first two e
 ![[quartz/content/Odd Links/fruitPreferencesMDS.png]]
 Amy is the closest to everyone (according to the distance matrix), so she's in the middle. The ones who married (/are marrying in)—Risa and I—are furthest away from members of the Smovell (Smith+Lovell) nuclear family. Makes sense!
 
-
+---
+[Here's the code](https://colab.research.google.com/drive/1dKVgDAHw0pap9zATSfwlL0wNaQBKQQGI?usp=sharing) in #python.

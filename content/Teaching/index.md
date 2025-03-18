@@ -1,4 +1,5 @@
 ---
 title: Teaching
 tags:
+  - teaching
 ---
