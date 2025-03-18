@@ -4,7 +4,6 @@ tags:
   - datasets
   - emo
 ---
-`This work is co-authored with Tyler M. Howie`
 ## Hook
 A quick search on the reddit "emo" page will show you that guitarists are always looking for the best or new "emo" tunings. What does that mean? We collected a bunch of riffs, transcribed them, and analyzed the tuning, hand positioning, and other features.
 

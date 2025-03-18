@@ -33,7 +33,7 @@ Okay, now that we have $B$ we can extract the eigenvectors/eigenvalues (like wha
 
 To plot the fruit preferences in two dimensions, we multiply the the first two eigenvectors with the sqrt of their values. (To plot in 3 dimensions, use the first three eigenvector-value pairs). This returns the 2D coordinates for our fruit preferences! 
 
-![[quartz/content/Odd Links/fruitPreferencesMDS.png]]
+![[fruitPreferencesMDS.png]]
 Amy is the closest to everyone (according to the distance matrix), so she's in the middle. The ones who married (/are marrying in)—Risa and I—are furthest away from members of the Smovell (Smith+Lovell) nuclear family. Makes sense!
 
 ---

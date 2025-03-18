@@ -11,7 +11,7 @@ class Matt:
 ```
 
 ## Want to read about my research?
-My research primarily concerns computational methods—I draw on methods from artificial intelligence (expert systems and machine learning) for music analysis. The most interesting results are when my models misalign with my musical intuition; in my research, I continue to interrogate that misalignment, whether that's a bias of the model or a subjective priority of my own. See more here: [Theory research](quartz/content/Research/index.md).
+My research primarily concerns computational methods—I draw on methods from artificial intelligence (expert systems and machine learning) for music analysis. The most interesting results are when my models misalign with my musical intuition; in my research, I continue to interrogate that misalignment, whether that's a bias of the model or a subjective priority of my own. See more here: [Research](Research/index.md).
 
 ## Datasets
 Folks using computational models need data! I've been involved in a few projects building "corpora" (a fancy term for dataset (pl.)), encoding emo guitar riffs, tagging video game music, labeling cadences, and others. To read more or access the datasets, read here: [Datasets](Datasets/index.md)
