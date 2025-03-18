@@ -1,8 +1,9 @@
 ---
-title: 
+title: 2020 – Chord Spacing Quality
 tags:
   - research
   - fourierTransform
+  - "#timbre"
 ---
 ## [Chord Spacing and Quality: Lessons from Timbre Research](https://kb.osu.edu/server/api/core/bitstreams/829f5615-a471-46e2-a09d-b9a03a793d16/content)
 ### [Video](https://www.youtube.com/watch?v=smqI_kqZmpM) 
@@ -26,4 +27,5 @@ To investigate the potential benefits of the DFT on pitch space (P-DFT), we perf
 
 ### Additional Materials
 [We designed a web app so anyone can calculate the P-DFT.](https://mattchiu.com/Pdft/pDFT.html)
+
 [Here is the code](https://colab.research.google.com/drive/1o81GaWX-wvQsczaXjfHT1llxJJJSm_nX?usp=sharing) in #python
