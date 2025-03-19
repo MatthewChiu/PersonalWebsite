@@ -182,6 +182,7 @@ async function setupExplorer(currentSlug: FullSlug) {
           if (opts.sortFn) trie.sort(opts.sortFn)
           break
       }
+      // toggleExplorer.call(explorer);
     }
 
     // Get folder paths for state management
