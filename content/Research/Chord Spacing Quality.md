@@ -4,6 +4,7 @@ tags:
   - research
   - fourierTransform
   - "#timbre"
+  - "#audioSignalProcessing"
 ---
 ## [Chord Spacing and Quality: Lessons from Timbre Research](https://kb.osu.edu/server/api/core/bitstreams/829f5615-a471-46e2-a09d-b9a03a793d16/content)
 ### [Video](https://www.youtube.com/watch?v=smqI_kqZmpM) 
