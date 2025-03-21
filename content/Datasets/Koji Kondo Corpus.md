@@ -20,7 +20,7 @@ Progress on the dataset is paused and life gets busy :( — I hope we can pick t
 ## Access
 You can get access to the current [dataset here](https://github.com/MatthewChiu/KojiKondoCorpus/blob/main/README.md). As stated on the GitHub page, the tags are incomplete; the metadata, windows, and midi information is the most useful right now. 
 
-For code, message me; drawing on our paper, Benjamin Giblin's thesis project (University of Oxford) used the same procedure on Metroid video games.
+For code (in #python), message me; drawing on our paper, Benjamin Giblin's thesis project (University of Oxford) used the same procedure on Metroid video games.
 
 
 

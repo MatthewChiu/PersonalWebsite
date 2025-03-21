@@ -31,6 +31,7 @@ const defaultOptions: GraphOptions = {
     drag: true,
     zoom: true,
     depth: -1,
+    // depth: 1,
     scale: 1.1,
     repelForce: 0.5,
     centerForce: 0.3,
