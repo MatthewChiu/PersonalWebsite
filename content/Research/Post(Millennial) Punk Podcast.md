@@ -4,6 +4,7 @@ tags:
   - research
   - punk
   - timbre
+  - genre
 ---
 ## [Analytical Frameworks for Post(–Millennial) Punk](https://smt-pod.org/episodes/season01/#e1.11)
 ```python

@@ -5,6 +5,7 @@ tags:
   - punk
   - rhythm
   - corpus
+  - probability
 ---
 ## 'All the Small Things': Microtiming Deviations in Contemporary Punk
 ### [Video](https://www.youtube.com/watch?v=_AD-wYwdsOc)

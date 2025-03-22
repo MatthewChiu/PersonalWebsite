@@ -5,3 +5,6 @@ tags:
   - auralSkills
   - postTonal
 ---
+## Where I taught this:
+- #BaldwinWallace University
+- #Eastman School of Music (Listed as Theory + Composition IV)
