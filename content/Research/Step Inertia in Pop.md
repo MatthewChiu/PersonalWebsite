@@ -6,7 +6,7 @@ tags:
   - probability
   - pop
   - genre
-  - artifialIntelligence
+  - artificialIntelligence
 ---
 ## [Melodic Differences Between Styles: Modeling Music With Step Inertia](https://journals.sagepub.com/doi/full/10.1177/20592043231225731)
 ```python

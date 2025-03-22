@@ -6,7 +6,7 @@ tags:
   - macroharmony
   - corpus
   - embeddings
-  - artifialIntelligence
+  - artificialIntelligence
 ---
 ## [Investigating Style with Scale Embeddings](https://link.springer.com/chapter/10.1007/978-3-031-07015-0_37)
 

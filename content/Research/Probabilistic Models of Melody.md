@@ -4,7 +4,7 @@ tags:
   - research
   - corpus
   - probability
-  - artifialIntelligence
+  - artificialIntelligence
   - genre
 ---
 ## [Improving Probabilistic Models of Melody](https://www.proquest.com/openview/8a8d2fc9ae88ea63bbd2659c576596a6/1?cbl=18750&diss=y&pq-origsite=gscholar)

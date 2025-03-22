@@ -5,7 +5,7 @@ tags:
   - machineLearning
   - embeddings
   - corpus
-  - "#artifialIntelligence"
+  - "#artificialIntelligence"
 ---
 ## Contextual Chord Embeddings for Stylistic Analysis
 ### [Video](https://www.youtube.com/watch?v=iSHihr-M7-U&t=1s)

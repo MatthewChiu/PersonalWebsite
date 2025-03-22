@@ -6,7 +6,7 @@ tags:
   - rhythm
   - fourierTransform
   - autocorrelation
-  - "#artifialIntelligence"
+  - "#artificialIntelligence"
   - "#machineLearning"
 ---
 ## [Identifying Metric Types with Optimized DFT and Autocorrelation Models](https://link.springer.com/chapter/10.1007/978-3-031-07015-0_28)

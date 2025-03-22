@@ -11,7 +11,7 @@ class Matt:
 ```
 
 ## Want to read about my research?
-My research primarily concerns computational methods—I draw on methods from #artifialIntelligence (expert systems and #machineLearning) for music analysis. Recurring techniques I use involve #embeddings (see [[Scalar and Macroharmonic Embeddings]]) and the #fourierTransform (see [[Durufle Macroharmony]]), and #probability (see [[Step Inertia in Pop]]). The most interesting results are when my models misalign with my musical intuition; in my research, I continue to interrogate that misalignment, whether that's a bias of the model or a subjective priority of my own. See more here: [Research](Research/index.md).
+My research primarily concerns computational methods—I draw on methods from #artificialIntelligence (expert systems and #machineLearning) for music analysis. Recurring techniques I use involve #embeddings (see [[Scalar and Macroharmonic Embeddings]]) and the #fourierTransform (see [[Durufle Macroharmony]]), and #probability (see [[Step Inertia in Pop]]). The most interesting results are when my models misalign with my musical intuition; in my research, I continue to interrogate that misalignment, whether that's a bias of the model or a subjective priority of my own. See more here: [Research](Research/index.md).
 
 ## Datasets
 Folks using computational models need data! I've been involved in a few projects building "corpora" (a fancy term for dataset (pl.)), [[Emo Fretboard Dataset|encoding emo guitar riffs]], [[Koji Kondo Corpus|tagging video game music]], [[Common-Practice Cadence Corpus|labeling cadences in common-practice music]], and others. To read more or access the datasets, read here: [Datasets](Datasets/index.md)
