@@ -1,5 +1,5 @@
 ---
-title: 2024 – Step Inertia in Pop
+title: 2024 – Emo Guitar Tunings
 tags:
   - research
   - corpus

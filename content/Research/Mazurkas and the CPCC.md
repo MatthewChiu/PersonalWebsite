@@ -7,7 +7,7 @@ tags:
   - language
   - "#probability"
 ---
-## [## The Impact of Language on Cadential Stress in Polish Instrumental Music](https://mattchiu.com/images/Chiu552.pdf)
+## [The Impact of Language on Cadential Stress in Polish Instrumental Music](https://mattchiu.com/images/Chiu552.pdf)
 ### [Video](https://www.youtube.com/watch?v=-69Ff7xoMmg) 
 The video corresponds to a related but different talk on the CPCC.
 ```python

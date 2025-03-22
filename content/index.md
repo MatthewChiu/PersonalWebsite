@@ -23,7 +23,7 @@ If you go to [Odd Links](Odd%20Links/index.md), you'll find more of my personali
 Prior to #BaldwinWallace, I taught at #UniversityOfIllinois, #Union College, the #Eastman School of Music (Ph.D), and #BostonUniversity (MM). See [Teaching](Teaching/index.md) for more information on classes I've taught.
 
 ## Other
-In my free time I like to take photos, bird watch, and play piano with my 4-hands partner (and partner) Eron.
+In my free time I like to take photos, bird watch, make faces at the baby (Cedar), and play piano with my 4-hands partner (and partner) Eron.
 
 <center><img src="MattChiuPhoto.jpg" width="400" height="auto"></center>
 

@@ -1,5 +1,5 @@
 ---
-title: 2024 – Step Inertia in Pop
+title: 2023 – Video Game Macroharmony
 tags:
   - research
   - corpus
