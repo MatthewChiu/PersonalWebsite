@@ -150,8 +150,10 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
 
   // I changed this
   // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
+
+  const iconPath = `https://mattchiu.com/static/icon.png`
   // const iconPath = `https://mattchiu.com/content/quartz/static/icon.png`
-  const iconPath = '../static/icon.png'
+  // const iconPath = '../static/icon.png'
 
   return (
     <div
