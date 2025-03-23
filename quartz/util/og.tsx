@@ -145,7 +145,10 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
 ) => {
   const fontBreakPoint = 22
   const useSmallerFont = title.length > fontBreakPoint
-  const iconPath = `https://${cfg.baseUrl}/static/icon.png`
+
+  // I changed this
+  // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
+  const iconPath = `https://mattchiu.com/static/icon.png`
 
   return (
     <div
