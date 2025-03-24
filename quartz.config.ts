@@ -92,7 +92,7 @@ const config: QuartzConfig = {
     ],
 
     // This is the part that I added
-    socialImage: [
+    SocialImageOptions: [
       {
         options: {
           excludeRoot: true // Use the default OG image for the root path
