@@ -1,7 +1,7 @@
 ---
 title: Welcome!
 enableFooter: "false"
-socialImage: mattchiu.com/static/og-image.png
+socialImage: og-image
 ---
 socialImage: "my-images/custom-image.png" # Path relative to the `static` folder
 
