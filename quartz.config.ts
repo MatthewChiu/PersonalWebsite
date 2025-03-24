@@ -11,10 +11,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
+
+    // baseUrl: "quartz.jzhao.xyz",
     baseUrl: "quartz.jzhao.xyz",
+    
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: true,
+
+    // changed from true to false
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
