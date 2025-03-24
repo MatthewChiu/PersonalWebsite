@@ -136,9 +136,10 @@ export type ImageOptions = {
 
 // This is the default template for generated social image.
 export const defaultImage: SocialImageOptions["imageStructure"] = (
-
+  
   cfg: GlobalConfiguration,
-  { colorScheme }: UserOpts,
+  
+  { colorScheme, excludeRoot}: UserOpts,
   title: string,
   description: string,
   fonts: SatoriOptions["fonts"],
@@ -146,6 +147,8 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
 ) => {
   const fontBreakPoint = 22
   const useSmallerFont = title.length > fontBreakPoint
+
+  excludeRoot = false
 
   // Original is the next line (other attempts below)
 

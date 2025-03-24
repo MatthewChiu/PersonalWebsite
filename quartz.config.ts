@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
 
-    // original was true
+    // original is true
     generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
@@ -91,20 +91,20 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
     ],
 
-    // This is the part that I added
-    SocialImageOptions: [
-      {
-        options: {
-          excludeRoot: true // Use the default OG image for the root path
-          // imageStructure: () => {
+    // This is the part that I added and it doesn't work...
+    // SocialImageOptions: [
+    //   {
+    //     options: {
+    //       excludeRoot: true // Use the default OG image for the root path
+    //       // imageStructure: () => {
 
-          //   // Return the static OG image
-          //   // return `<img src="https://mattchiu.com/static/og-image.png" alt="OG Image" />`
-          //   return `<img src="https://mattchiu.com/static/og-image.jpg" alt="OG Image" />`
+    //       //   // Return the static OG image
+    //       //   // return `<img src="https://mattchiu.com/static/og-image.png" alt="OG Image" />`
+    //       //   return `<img src="https://mattchiu.com/static/og-image.jpg" alt="OG Image" />`
         
-      },
-    },
-    ],
+    //   },
+    // },
+    // ],
 
 
   },
