@@ -185,7 +185,15 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
           gap: "2.5rem",
         }}
       >
-        <img src={iconPath} width={135} height={135} />
+
+        
+        {/* <img src={iconPath} width={135} height={135} /> */}
+
+        <img 
+        src={`https://${cfg.baseUrl}/static/previewImage.png`}
+        alt="Custom Social Image"
+        />
+
         <div
           style={{
             display: "flex",

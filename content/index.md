@@ -1,7 +1,9 @@
 ---
 title: Welcome!
 enableFooter: "false"
+socialImage: ../quartz/static/og-image.png
 ---
+socialImage: "my-images/custom-image.png" # Path relative to the `static` folder
 
 ```python
 class Matt:

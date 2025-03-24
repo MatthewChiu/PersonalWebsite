@@ -22,6 +22,8 @@ const config: QuartzConfig = {
 
     // original is true
     generateSocialImages: true,
+    
+
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -91,23 +93,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
-
-    // This is the part that I added and it doesn't work...
-    // SocialImageOptions: [
-    //   {
-    //     options: {
-    //       excludeRoot: true // Use the default OG image for the root path
-    //       // imageStructure: () => {
-
-    //       //   // Return the static OG image
-    //       //   // return `<img src="https://mattchiu.com/static/og-image.png" alt="OG Image" />`
-    //       //   return `<img src="https://mattchiu.com/static/og-image.jpg" alt="OG Image" />`
-        
-    //   },
-    // },
-    // ],
-
-
   },
 }
 
