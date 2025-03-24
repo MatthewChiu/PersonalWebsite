@@ -157,9 +157,9 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
 
   // const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
-  const iconPath = `https://${cfg.baseUrl}/static/og-image.jpg`
+  // const iconPath = `https://${cfg.baseUrl}/static/og-image.jpg`
 
-  // const iconPath = `https://mattchiu.com/static/og-image.png`
+  const iconPath = `https://mattchiu.com/static/og-image.png`
   // const iconPath = `https://mattchiu.com/content/quartz/static/og-image.png`
   // const iconPath = `https://mattchiu.com/quartz/static/og-image.jpg`
 
