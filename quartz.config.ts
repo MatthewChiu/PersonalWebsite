@@ -13,8 +13,8 @@ const config: QuartzConfig = {
     locale: "en-US",
 
     // baseUrl: "quartz.jzhao.xyz",
-    baseUrl: "quartz.jzhao.xyz",
-    
+    baseUrl: "mattchiu.com",
+
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
 
