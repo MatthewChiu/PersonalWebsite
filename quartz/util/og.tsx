@@ -136,6 +136,7 @@ export type ImageOptions = {
 
 // This is the default template for generated social image.
 export const defaultImage: SocialImageOptions["imageStructure"] = (
+
   cfg: GlobalConfiguration,
   { colorScheme }: UserOpts,
   title: string,
@@ -147,10 +148,14 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   const useSmallerFont = title.length > fontBreakPoint
 
   // Original is the next line (other attempts below)
-  const iconPath = `https://${cfg.baseUrl}/static/icon.png`
 
-  // const iconPath = `https://mattchiu.com/static/og-image.png`
-  // const iconPath = `https://mattchiu.com/content/quartz/static/icon.png`
+  // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
+
+  // const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
+
+  const iconPath = `https://mattchiu.com/static/og-image.png`
+  // const iconPath = `https://mattchiu.com/content/quartz/static/og-image.png`
+  // const iconPath = `https://mattchiu.com/quartz/static/og-image.jpg`
 
   return (
     <div

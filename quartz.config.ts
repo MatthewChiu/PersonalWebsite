@@ -1,3 +1,4 @@
+import { options } from "yargs"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -12,14 +13,14 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
 
-    // baseUrl: "quartz.jzhao.xyz",
-    baseUrl: "mattchiu.com",
+    baseUrl: "quartz.jzhao.xyz",
+    // baseUrl: "https://mattchiu.com",
 
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
 
-    // changed from true to false
-    generateSocialImages: false,
+    // original was true
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -89,6 +90,23 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
+
+    // This is the part that I added
+    socialImage: [
+      {
+        options: {
+          excludeRoot: true // Use the default OG image for the root path
+          // imageStructure: () => {
+
+          //   // Return the static OG image
+          //   // return `<img src="https://mattchiu.com/static/og-image.png" alt="OG Image" />`
+          //   return `<img src="https://mattchiu.com/static/og-image.jpg" alt="OG Image" />`
+        
+      },
+    },
+    ],
+
+
   },
 }
 
