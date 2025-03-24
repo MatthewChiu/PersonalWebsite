@@ -77,8 +77,7 @@ export type SocialImageOptions = {
    * Whether to use the auto generated image for the root path ("/", when set to false) or the default og image (when set to true).
    */
 
-  // Changed this from true to false
-  excludeRoot: false
+  excludeRoot: boolean
   /**
    * JSX to use for generating image. See satori docs for more info (https://github.com/vercel/satori)
    * @param cfg global quartz config
@@ -151,7 +150,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   // I changed this
   // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
 
-  const iconPath = `https://mattchiu.com/static/icon.png`
+  const iconPath = `https://mattchiu.com/static/og-image.png`
   // const iconPath = `https://mattchiu.com/content/quartz/static/icon.png`
   // const iconPath = '../static/icon.png'
 
