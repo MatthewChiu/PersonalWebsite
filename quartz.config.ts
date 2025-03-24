@@ -1,6 +1,7 @@
 import { options } from "yargs"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { defaultImage } from "./quartz/util/og"
 
 const config: QuartzConfig = {
   configuration: {
@@ -21,8 +22,14 @@ const config: QuartzConfig = {
     defaultDateType: "created",
 
     // original is true
-    generateSocialImages: true,
-    
+    // generateSocialImages: true,
+    generateSocialImages: {
+      colorScheme: "lightMode", // Use "lightMode" or "darkMode" based on your preference
+      width: 1200, // Width of the image in pixels
+      height: 630, // Height of the image in pixels
+      excludeRoot: false, // Include the root page in social image generation
+      imageStructure: defaultImage, // Use the `defaultImage` function from `og.tsx`
+    },
 
     theme: {
       fontOrigin: "googleFonts",
