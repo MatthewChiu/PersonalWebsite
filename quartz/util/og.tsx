@@ -156,7 +156,8 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   // Original is the next line (other attempts below)
   // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
 
-  const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
+  // const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
+  const iconPath = `https://${cfg.baseUrl}/static/og-image.jpg`
 
   // const iconPath = `https://mattchiu.com/static/og-image.png`
   // const iconPath = `https://mattchiu.com/content/quartz/static/og-image.png`
@@ -187,12 +188,13 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
       >
 
         
-        {/* <img src={iconPath} width={135} height={135} /> */}
+        <img src={iconPath} width={135} height={135} />
 
-        <img 
+        {/* Tried this too... */}
+        {/* <img 
         src={`https://${cfg.baseUrl}/static/previewImage.png`}
         alt="Custom Social Image"
-        />
+        /> */}
 
         <div
           style={{
