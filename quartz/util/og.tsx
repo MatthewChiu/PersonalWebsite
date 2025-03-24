@@ -148,15 +148,17 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   const fontBreakPoint = 22
   const useSmallerFont = title.length > fontBreakPoint
 
+  // Added this line to exclude the root path from the social image generation
   excludeRoot = false
 
-  // Original is the next line (other attempts below)
 
+
+  // Original is the next line (other attempts below)
   // const iconPath = `https://${cfg.baseUrl}/static/icon.png`
 
-  // const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
+  const iconPath = `https://${cfg.baseUrl}/static/og-image.png`
 
-  const iconPath = `https://mattchiu.com/static/og-image.png`
+  // const iconPath = `https://mattchiu.com/static/og-image.png`
   // const iconPath = `https://mattchiu.com/content/quartz/static/og-image.png`
   // const iconPath = `https://mattchiu.com/quartz/static/og-image.jpg`
 

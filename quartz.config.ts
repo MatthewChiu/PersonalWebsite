@@ -13,8 +13,9 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
 
-    baseUrl: "quartz.jzhao.xyz",
-    // baseUrl: "https://mattchiu.com",
+    // I changed this to my domain name
+    // baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://mattchiu.com",
 
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
