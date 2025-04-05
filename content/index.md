@@ -1,9 +1,8 @@
 ---
 title: Welcome!
 enableFooter: "false"
-socialImage: og-image
+socialImage: og-image.png
 ---
-socialImage: "my-images/custom-image.png" # Path relative to the `static` folder
 
 ```python
 class Matt:
