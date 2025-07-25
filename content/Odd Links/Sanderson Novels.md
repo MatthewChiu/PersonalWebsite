@@ -3,6 +3,7 @@ title: Sanderson Novels
 tags:
   - oddLinks
   - entropy
+  - lifeLogging
 ---
 My brother-in-law likes the Brandon Sanderson "Stormlight Archive" series. In our discord he posted about the increasing word count of each book (below), extrapolating to potential books (my mother-in law said *"ok, since I know you've done it, linear regression extrapolation to Stormlight 25?"*) 
 

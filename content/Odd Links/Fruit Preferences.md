@@ -3,6 +3,7 @@ title: Fruit Preferences
 draft: false
 tags:
   - oddLinks
+  - lifeLogging
 ---
 On a call, Eron's family decided to make a *tier list* of fruits. Each person assigned a fruit a rating between F–SSS. We entered values for 41 fruits (well... Allen made a "cRaZy ZoNe" of fruits many of us haven't eaten (e.g. Rambutan)).
 
