@@ -15,11 +15,12 @@ Since May 2022, I've kept a gas log for Hugo by filing prices, mileage, location
 | Total Gallons Use       |  758.50  |
 | Total Distance Traveled | 18711.00 |
 In the below graphs, notice the peak around July 2024: we went on a short road trip from Cleveland to CT and back (where we stayed with Sven and were thrown a baby shower by my family)!
-![[Pasted image 20250724212252.png]]
-![[Pasted image 20250724212304.png]]
+
+![[Hugo.GasPerMonth.png]]
+![[Hugo.GasFillFrequency.png]]
 
 My gas efficiency got better in June/July... Well, that was also when I got the oil changed (thanks, dad!).
-![[Pasted image 20250724212317.png]]
+![[Hugo.MilesPerGallon.png]]
 
 Prices for gas were really high in 2022 and then again in may 2024... Maybe Russia's invasion of Ukrain in 2022, and then... summer prices for 2024?
-![[Pasted image 20250724212325.png]]
+![[Hugo.GasCost.png]]
