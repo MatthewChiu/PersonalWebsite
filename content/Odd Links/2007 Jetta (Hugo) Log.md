@@ -20,13 +20,9 @@ In the below graphs, notice the peak around July 2024: we went on a short road t
 ![[Hugo.GasPerMonth.png]]
 ![[Hugo.GasFillFrequency.png]]
 
-My gas efficiency got better in June/July... Well, that was also when I got the oil changed (thanks, dad!).
+My gas efficiency got better in June/July... Well, that was also when I got a tune up and oil changed (thanks, dad!).
 ![[Hugo.MilesPerGallon.png]]
 
-<<<<<<< HEAD
+
 Prices for gas were really high in 2022 and then again in may 2024... Maybe Russia's invasion of Ukrain in 2022, and then... summer prices for 2024?
 ![[Hugo.GasCost.png]]
-=======
-Prices for gas were really high in 2022... Maybe because of Russia's invasion of Ukraine(?).
-![[Pasted image 20250724212325.png]]
->>>>>>> 18eeb8bb3b3a877f88c9c6e8e2e035c0f79fc390
