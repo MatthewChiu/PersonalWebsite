@@ -11,6 +11,7 @@ tags:
 ### [Video](https://www.youtube.com/watch?v=iSHihr-M7-U&t=1s)
 
 ### Format (When): Where
+* [Publication (2025)](https://musicaiq.com/wp-content/uploads/2025/09/Copy-of-March-2025-1.pdf): Musica IQ
 * Presentation (2021): South Central Society for Music Theory
 
 ### TL;DR
