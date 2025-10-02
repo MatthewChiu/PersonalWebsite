@@ -26,22 +26,38 @@ Because I included popular music and scans that are not in the public domain, I 
 
 ![[Pasted image 20250913104221.png|100]]![[Pasted image 20250913104328.png|99]]![[Pasted image 20250913104349.png|97]]
 ### Model Architecture
+![[Pasted image 20251001095231.png]]
+![[Pasted image 20251001101417.png]]
+The model is a *convolutional autoencoder* with a *classification head*. Unpacking that a bit:
 
+An autoencoder is an unsupervised neural network model composed of an 1) encoder, 2) bottleneck (or latent space), and 3) decoder. The goal of the model is to produce an output that matches the input _\hat{x}_≈_x_ where _x_ is the input and _\hat{x}_ is the reconstruction. However, we reduce the input to a lower dimmension—we reduce the image from 448x448 px to, ultimately, 56x56 px. (It gets reduced to 224x224 and 112x112 along the way.) The job of the encoder is to reduce the image to a 56x56 px image—which is known as the bottleneck—and the job of the decoder is to reproduce the original image by upsampling from its smaller state. 
 
+For the convolution, we take a 5x5 or 3x3 filter and slide it across the image—one example of a filter is shown below. We take the dot product between the filter and the image (multiplying each position with the position beneath it and summing those values). By continuing to slide the filter across the image, it results in a new matrix showing where the filter "matched" the image. After training, filters learn and correspond to certain _features_ of the image to better compress or reproduce the image. Typically, filters in the earlier stages of the autoencoder correspond to basic visual features, and those later learn more sophisticated representations.
+
+![[Pasted image 20251001100817.png]]
+
+In the model above, I have also added _batch normalization_ and _dropout_. Batch normalization shifts the mean of the output layer to be close to 0 and the standard deviation close to 1. Dropout randomly "drops" (sets to zero) a fraction of layer outputs during training to prevent the model from overfitting to the training dataset. The rate used was a standard 0.25, meaning 25% of connections are dropped.
+
+The actual filter looks like this:
+**|(5x5)x16|(3x3)x32|(3x3)x64|**
+There are 3 layers 16 of 5x5 filters, 3 layers of 32 3x3 filters, and 3 layers of 64 3x3 filters.
+
+The classification head is added to the bottleneck of the model and I don't use it for this project. Message me for details.
 ### Training
+The model is evaluated based on how similar the reconstructed image is to the original---the error is known as Mean Squared Error (MSE). MSE is just the averaged squared distance between the original and reconstructed image.
 
+Then, like most neural networks, we use backpropagation for updating our model. Based on the error, gradients flow back through all paths, and the Adam optimizer updates the filters to minimize the MSE. 
 
+The actual parameters are below:
+- 100 epochs (loops through the dataset)
+- Batch size of 32
+- Dropout (0.25) used throughout for regularization
+- Batch normalization after convolutions
+- Validation on 20% held-out test set
+![[Pasted image 20251001103204.png]]
 
 ### Visual features
+After training the model, it achieved minimal error in its reconstruction of the image (and was not overfit to the training dataset). By examining the latent space, we can see what the model thinks is the most essential to an images construction. Below find some recurring filters.
+![[Pasted image 20251001103254.png]]
 
 
-### Classification
-
-
-
-### TL;DR
-Chords don't always act the same, they change based on context: for example, a C major triad typically acts one way in C major key and another in F major. What about between styles and composers? Drawing on techniques from #machineLearning and #naturalLanguageProcessing, I derive numerical representations for chords based on their use in different styles. 
-
-Studying representations from classical styles correlate with claims frequently made in music theory. In a rock style... not so much.
-
-[Here's the accompanying code](https://colab.research.google.com/drive/1wSmPVDjnJIql7DifdTvUwsOj1Q-NcY2j?usp=sharingz) in #python.
