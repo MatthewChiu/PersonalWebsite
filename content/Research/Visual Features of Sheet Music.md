@@ -61,3 +61,25 @@ After training the model, it achieved minimal error in its reconstruction of the
 ![[Pasted image 20251001103254.png]]
 
 
+## References
+Balke, S., Achankunju, S. P., & Müller, M. (2015). Matching musical themes based on noisy OCR and OMR input. In _Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)_, 703–707. [https://doi.org/10.1109/ICASSP.2015.7178060](https://doi.org/10.1109/ICASSP.2015.7178060)
+
+Byrd, D., & Simonsen, J. G. (2015). Towards a standard testbed for optical music recognition: Definitions, metrics, and page images. _Journal of New Music Research, 44_(3), 169–195. [https://doi.org/10.1080/09298215.2015.1045424](https://doi.org/10.1080/09298215.2015.1045424)
+
+Chiu, M., & Temperley, D. (2024). Melodic Differences Between Styles: Modeling Music with Step Inertia. _Music and Science_ 7. [https://doi.org/10.1177/20592043231225731](https://doi.org/10.1177/20592043231225731)
+
+Conklin, D., & Witten, I. H. (1995). Multiple viewpoint systems for music prediction. _Journal of New Music Research, 24_(1), 51–73. [https://doi.org/10.1080/09298219508570672](https://doi.org/10.1080/09298219508570672)
+
+Hajic Jr, J., Pecina, P., et al. (2017). The MUSCIMA++ dataset for handwritten optical music recognition. In _International Conference on Document Analysis and Recognition (ICDAR)_ (pp. 39–46). [https://doi.org/10.1109/ICDAR.2017.16](https://doi.org/10.1109/ICDAR.2017.16)
+
+Herremans, D., Chuan, C. H., & Chew, E. (2017). A functional taxonomy of music generation systems. _ACM Computing Surveys (CSUR), 50_(5), 1–30. [https://doi.org/10.1145/3108242](https://doi.org/10.1145/3108242)
+
+Masci, J., Meier, U., Cireşan, D., & Schmidhuber, J. (2011). Stacked convolutional auto-encoders for hierarchical feature extraction. In _International Conference on Artificial Neural Networks_ (pp. 52–59). Springer. [https://doi.org/10.1007/978-3-642-21735-7_7](https://doi.org/10.1007/978-3-642-21735-7_7)
+
+McKay, C., & Fujinaga, I. (2006). Musical genre classification: Is it worth pursuing and how can it be improved? In _Proceedings of the International Society for Music Information Retrieval Conference (ISMIR 2006)_.
+
+Pons, J., Lidy, T., & Serra, X. (2017). Experimenting with musically motivated convolutional neural networks. In _14th International Workshop on Content-Based Multimedia Indexing_ (pp. 1–6). [https://doi.org/10.1109/CBMI.2016.7500246](https://doi.org/10.1109/CBMI.2016.7500246)
+
+Rebelo, A., Fujinaga, I., Paszkiewicz, F., Marcal, A. R. S., Guedes, C., & Cardoso, J. S. (2012). Optical music recognition: State-of-the-art and open issues. _International Journal of Multimedia Information Retrieval, 1_(3), 173–190. [https://doi.org/10.1007/s13735-012-0004-6](https://doi.org/10.1007/s13735-012-0004-6)
+
+Sigtia, S., Kumar, S., Mauch, M., Benetos, E., & Dixon, S. (2016). _An end-to-end neural network for polyphonic piano music transcription._ _IEEE/ACM Transactions on Audio, Speech, and Language Processing, 24_(5), 927–939. https://doi.org/10.1109/TASLP.2016.2535164
