@@ -15,6 +15,7 @@ class CoAuthor
 ### Format (When): Where
 * Presentation (2024) – The Society for Music Theory #SMT 
 * Presentation (2023) – The Rocky Mountain Society for Music Theory
+* Presentation (2026) – Emo Con
 
 ### TL;DR
 Emo guitarists tend to use alternate tunings. What might be the musical motivation for these guitarists to choose these tunings specifically? Do these tunings affect the way guitarists move their hands or the musical gestures played? 
